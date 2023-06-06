@@ -1,0 +1,249 @@
+body{
+    margin: 100px 20vw 60px 20vw;
+    justify-content: center;
+    padding: 0;
+    display: flex;
+}
+header{
+    margin-top: 50px;  
+}
+
+.profile{
+    /* position: absolute; */
+    border-radius: 16px;
+    width: 156px;
+    height: 156px;
+    left: 641px;
+    top: 60px;  
+    object-fit: cover;
+}
+
+.fullname{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #4E5150;
+    margin: 2px;
+    justify-content: center;
+    width: 100%;
+}
+
+.city{
+    width: 150px;
+    height: 17px;
+    left: 41%;
+    top: 269px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #A9A9A9;
+    margin-top: -0.08%;
+
+}
+
+.btn1{
+
+    display: inline-block;
+    width: 100px;
+    height: 67px;
+    left: 35%;
+    top: 310px;
+
+    border-radius: 12px;
+    border-color: #E5E5E5;
+    justify-content: center;
+}
+
+.btn2{
+    width: 100px;
+    height: 67px;
+    left: 41.5%;
+    top: 310px;
+
+    border-color: #E5E5E5;
+    border-radius: 12px;
+}
+
+.btn3{
+    width: 100px;
+    height: 67px;
+    left: 48%;
+    top: 310px;
+
+    border-color: #E5E5E5;
+    border-radius: 12px;
+}
+
+.num{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: start;
+    margin-top: 8px;
+    margin-left: 24px;
+
+    color: #4E5150;
+
+}
+
+.name{
+    margin-top: -15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    /* Gray 4 */
+
+    color: #BDBDBD;
+}
+
+.parts{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+main{
+    flex-direction: column;
+    margin:0 auto;
+    width: 80%;
+    display: grid;
+
+    grid-template-areas: 'a b b'
+                         'c c d'
+                         'e f g';
+    row-gap: 10px;
+    gap: 30px;
+    
+}
+
+.img1{
+    grid-area: a;
+}
+.img2{
+    grid-area: b;
+}
+.img3{
+    grid-area: c;
+}
+.img4{
+    grid-area: d;
+    height: 155%;
+}
+.img5{
+    grid-area: e;
+}
+.img6{
+    grid-area: f;
+}
+
+img{
+    border-radius: 25px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;    
+}
+
+footer{
+    margin-top: 30px;
+    margin-bottom: -100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #B9BDCF;
+}
+a{
+    color: #B9BDCF;
+}
+
+@media screen and (max-width: 600px) {
+    main{
+        row-gap: 5px;
+        gap: 10px;
+    }
+    .parts{
+        
+    }
+
+    .btn1{
+
+        display: inline-block;
+        width: 50px;
+        height: 37px;
+        left: 35%;
+        top: 310px;
+    
+        border-radius: 12px;
+        border-color: #E5E5E5;
+        justify-content: center;
+    }
+    
+    .btn2{
+        width: 50px;
+        height: 37px;
+        left: 41.5%;
+        top: 310px;
+    
+        border-color: #E5E5E5;
+        border-radius: 12px;
+    }
+    
+    .btn3{
+        width: 50px;
+        height: 37px;
+        left: 48%;
+        top: 310px;
+    
+        border-color: #E5E5E5;
+        border-radius: 12px;
+    }
+
+    .num{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 22px;
+        text-align: start;
+        margin-top: 0px;
+        margin-left: 9px;
+    
+        color: #4E5150;
+    
+    }
+    
+        .name{
+            margin-top: -18px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 8px;
+            line-height: 17px;
+            text-align: center;
+        
+            /* Gray 4 */
+        
+            color: #BDBDBD;
+        }
+        
+}
